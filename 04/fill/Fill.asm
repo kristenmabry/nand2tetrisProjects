@@ -30,7 +30,7 @@ M=0
 @SCREEN
 D=M
 @LOOP
-D;JGT       // skip if screen is already filled
+D;JNE       // skip if screen is already filled
 @color
 M=-1
 
